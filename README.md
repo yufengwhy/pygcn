@@ -7,8 +7,6 @@ The performance:
 
 **Note: early_stopping can be 10 for cora and citeseer, 20 for pubmed.**
 
-Graph Convolutional Networks in PyTorch
-
 PyTorch implementation of Graph Convolutional Networks (GCNs) for semi-supervised classification [1].
 
 ## Requirements
