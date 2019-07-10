@@ -5,7 +5,7 @@ The performance:
 - citeseer: 0.707 (paper: 0.703)
 - pubmed: 0.794 (paper: 0.790)
 
-Note: early_stopping can be 10 for cora and citeseer, 20 for pubmed.
+**Note: early_stopping can be 10 for cora and citeseer, 20 for pubmed.**
 
 Graph Convolutional Networks in PyTorch
 
