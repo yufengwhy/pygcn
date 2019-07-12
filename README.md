@@ -1,4 +1,4 @@
-## Pygcn w/o pifall
+## No pitfalls
 **This pygcn implementation is the same as TensorFlow implementation** in https://github.com/tkipf/gcn, fixing the subtle differences of [data splits, normalization, dropout](https://github.com/tkipf/pygcn/issues/20) in author's pygcn https://github.com/tkipf/pygcn.
 
 ##  Performance
