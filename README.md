@@ -5,19 +5,19 @@ The performance:
 - citeseer: 0.707 (paper: 0.703)
 - pubmed: 0.794 (paper: 0.790)
 
-**Note: early_stopping can be 10 for cora and citeseer, 20 for pubmed.**
+**Usage: early_stopping can be 10 for cora and citeseer, 20 for pubmed.**
+
+```python train.py --dataset cora --early_stopping 10```
+```python train.py --dataset citeseer --early_stopping 10```
+```python train.py --dataset pubmed --early_stopping 20```
 
 PyTorch implementation of Graph Convolutional Networks (GCNs) for semi-supervised classification [1].
+
+## References
+
+[1] [Kipf & Welling, Semi-Supervised Classification with Graph Convolutional Networks, 2016](https://arxiv.org/abs/1609.02907)
 
 ## Requirements
 
   * PyTorch 0.4 or 0.5
   * Python 2.7 or 3.6
-
-## Usage
-
-```python train.py```
-
-## References
-
-[1] [Kipf & Welling, Semi-Supervised Classification with Graph Convolutional Networks, 2016](https://arxiv.org/abs/1609.02907)
