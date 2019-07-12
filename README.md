@@ -10,8 +10,8 @@
 
 ```python train.py --dataset cora --early_stopping 10```  
 ```python train.py --dataset citeseer --early_stopping 10```  
-```python train.py --dataset pubmed --early_stopping 20```
-**early_stopping can be 10 for cora and citeseer, 20 for pubmed.**
+```python train.py --dataset pubmed --early_stopping 20```  
+**early_stopping is suggested to be 10 for cora and citeseer, 20 for pubmed.**
 
 ## References
 PyTorch implementation of Graph Convolutional Networks (GCNs) for semi-supervised classification [1].
