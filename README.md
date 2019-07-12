@@ -14,7 +14,7 @@
 **early_stopping is suggested to be 10 for cora and citeseer, 20 for pubmed.**
 
 ## References
-PyTorch implementation of Graph Convolutional Networks (GCNs) for semi-supervised classification [1].
+PyTorch implementation of Graph Convolutional Networks (GCNs) for semi-supervised classification [1].  
 [1] [Kipf & Welling, Semi-Supervised Classification with Graph Convolutional Networks, 2016](https://arxiv.org/abs/1609.02907)
 
 ## Requirements
