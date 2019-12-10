@@ -1,5 +1,5 @@
 ## No pitfalls
-**This pygcn implementation is the same as TensorFlow implementation** in https://github.com/tkipf/gcn, fixing the differences of [data splits, normalization, dropout](https://github.com/tkipf/pygcn/issues/20) in the official https://github.com/tkipf/pygcn.
+**This pygcn implementation is the same as TensorFlow implementation** in https://github.com/tkipf/gcn, fixing the differences of [data splits, normalization, dropout](https://github.com/tkipf/pygcn/issues/20) in the official https://github.com/tkipf/pygcn. data splits in the pygcn/utils.py
 
 ##  Performance
 - cora: 0.820 (paper: 0.815)
